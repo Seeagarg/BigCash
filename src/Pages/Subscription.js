@@ -12,7 +12,7 @@ const Subscription = () => {
     const [selectedOption, setSelectedOption] = useState(null);
     const [margin,setMargin] = useState(false)
 
-    console.log(margin)
+    // console.log(margin)
 
     // const options={"Daily K350"}
     const handleInputChange = (selectedOption) => {
@@ -65,6 +65,7 @@ const Subscription = () => {
 
            
               <Select
+              isSearchable={false}
                 className={classes.selector}
                 styles={{
                   control: (baseStyles, state) => ({
