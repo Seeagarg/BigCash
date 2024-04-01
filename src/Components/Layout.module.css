@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    min-height: 100dvh;
+    /* min-height: 100dvh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
     align-items: center;
     flex-direction: column;
     width: 27rem;
-    min-height: 100dvh;
+    /* min-height: 100dvh; */
     background: linear-gradient(180deg, #FFCB05 0%, #FFFFFF 100%);
     border-radius: 1.5rem;
     overflow: hidden;

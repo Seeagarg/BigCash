@@ -1,7 +1,7 @@
 
 .main{
     padding: 2rem;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     /* width: 100%; */
     display: flex;
@@ -73,13 +73,14 @@
  
  .tab_2 .tab{
      font-size: 1.5rem;
-     font-weight: 800;
+     
      color: black;
      font-family: 'Inter',sans-serif;
  }
  
  .tab_1 .tab{
      font-size: 1.5rem;
+     font-weight: 800;
      font-family: 'Inter',sans-serif;
      color: black;
  }
@@ -114,7 +115,7 @@
      background: transparent;
      height: 3rem;
      color: black;
-     font-size: 1rem;
+     font-size: 0.95rem;
      font-family: 'Inter',sans-serif;
      /* font-weight:500; */
  }
@@ -136,7 +137,7 @@
  
  .country_code{
      color: grey;
-     font-size: 1rem;
+     font-size: 0.95rem;
      font-weight: 800;
  }
  

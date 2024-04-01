@@ -7,8 +7,8 @@ import SubLayout from '../Components/SubLayout';
 const Login = () => {
     const navigate = useNavigate()
     const [msisdn,setMsisdn] = useState();
-    const [options, setOptions] = useState([]);
-    const [selectedOption, setSelectedOption] = useState(null);
+   
+    // console.log(msisdn)
 
     
   return (
