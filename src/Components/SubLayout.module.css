@@ -1,7 +1,8 @@
 
 .main{
     position: relative;
-    width: 27rem;
+    /* width: 27rem; */
+    width: 100%;
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
