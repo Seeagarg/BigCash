@@ -4,7 +4,9 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    height: 100dvh;
+    height: 100vh;
+    /* height: 100dvh; */
+
 }
 .top{
     width: 70%;
@@ -20,13 +22,15 @@
 }
 
 .image{
+    top: 5rem;
+    /* position: inherit; */
     padding: 2rem;
 }
 
 .animation{
     height: 8rem;
     width: 8rem;
-    position: absolute;
+    /* position: absolute; */
     bottom: 5rem;
     margin-top: 3rem;
 }
