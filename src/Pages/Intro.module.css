@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100dvh;
+}
+.top{
+    width: 70%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+    top: 0;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.image{
+    padding: 2rem;
+}
+
+.animation{
+    height: 8rem;
+    width: 8rem;
+    position: absolute;
+    bottom: 5rem;
+}

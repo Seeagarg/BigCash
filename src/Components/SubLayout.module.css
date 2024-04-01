@@ -1,0 +1,27 @@
+
+.main{
+    position: relative;
+    width: 27rem;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(180deg, #FFCB05 0%, #FFFFFF 100%);
+    /* padding: 2rem; */
+
+ }
+
+ .bg{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     min-height: 100dvh;
+     z-index: 0;
+ }
+ .bg .image{
+     width: 100%;
+     opacity: 0.6;
+     height: auto;
+     object-fit: contain;
+ }
