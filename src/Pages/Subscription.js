@@ -10,6 +10,9 @@ const Subscription = () => {
     const [msisdn,setMsisdn] = useState();
     const [options, setOptions] = useState([{value:"Daily K350",label:"Daily K350"},{value:"Weekly K1400",label:"Weekly K1400"},{value:"Monthly K4200",label:"Monthly K4200"}]);
     const [selectedOption, setSelectedOption] = useState(null);
+    const [margin,setMargin] = useState(false)
+
+    console.log(margin)
 
     // const options={"Daily K350"}
     const handleInputChange = (selectedOption) => {
@@ -92,11 +95,13 @@ const Subscription = () => {
                 onChange={handleInputChange}
                 options={options}
                 placeholder="Select Package"
-                menuIsOpen={true}
+                onMenuOpen = {()=>setMargin(true)}
+                onMenuClose={()=>{setMargin(false)}}
+                // menuIsOpen={true}
               />
          
 
-            <button type="submit" className={classes.subscribe_btn}>
+            <button type="submit" className={`${margin? classes.subscribe_btn_down : classes.subscribe_btn}`}>
               Subscribe
             </button>
           </form>

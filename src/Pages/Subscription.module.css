@@ -99,11 +99,12 @@
  
  .form{
      display: flex;
-     justify-content: center;
+     /* justify-content: center; */
      align-items: center;
      width: 100%;
      flex-direction: column;
      gap: 2rem;
+     /* height: 20rem; */
  }
  
  .input{
@@ -141,15 +142,16 @@
  
  .selector{
      /* width: 25rem; */
+     height: fit-content;
      gap: 0.5rem;
-     width: 90%;
+     width: 85%;
      font-size: 1.3rem !important;
      cursor: pointer;
  }
  
  
  .subscribe_btn{
-     margin-top: 8rem;
+     /* margin-top: 8rem; */
      width: 90%;
      /* width: 27rem; */
      display: flex;
@@ -169,6 +171,27 @@
      box-shadow: 0 1rem 1rem rgba(0,0,0,0.3);
      cursor: pointer;
  }
+ .subscribe_btn_down{
+    margin-top: 8rem;
+    width: 90%;
+    /* width: 27rem; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1rem;
+    font-family: 'Inter',sans-serif;
+    font-weight: 900;
+    color: white;
+    background-color: #E92230;
+    text-transform: uppercase;
+    /* letter-spacing: 0.2rem; */
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.3);
+    cursor: pointer;
+}
  
  
  .footer_container{

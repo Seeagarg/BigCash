@@ -101,11 +101,12 @@
  
  .form{
      display: flex;
-     justify-content: center;
+     /* justify-content: center; */
      align-items: center;
      width: 100%;
      flex-direction: column;
      gap: 2rem;
+     /* height: 20rem; */
  }
  
  .input{
@@ -178,7 +179,7 @@
      /* position: absolute; */
      /* left: 0; */
      /* bottom:20px; */
-     margin-top: 8rem;
+     /* margin-top: 8rem; */
      display: flex;
      justify-content: center;
      align-items: center;
