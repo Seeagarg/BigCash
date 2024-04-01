@@ -1,9 +1,9 @@
 
 .main{
-    padding: 2rem;
-    /* position: absolute; */
-    top: 0;
-    /* width: 100%; */
+    /* padding: 2rem; */
+    position: absolute;
+    top: 3rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,9 +174,10 @@
  
  
  .footer_container{
-     padding: 2rem;
-     /* position: absolute; */
-     bottom:0;
+     /* padding: 2rem; */
+     position: absolute;
+     left: 0;
+     bottom:20px;
      display: flex;
      justify-content: center;
      align-items: center;

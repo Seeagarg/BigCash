@@ -17,6 +17,7 @@
     background: linear-gradient(180deg, #FFCB05 0%, #FFFFFF 100%);
     border-radius: 1.5rem;
     overflow: hidden;
+    padding: 2rem;
 }
 
 @media screen and (max-width:380px){

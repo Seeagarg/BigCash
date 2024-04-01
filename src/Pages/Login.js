@@ -60,8 +60,9 @@ const Login = () => {
           </form>
         </div>
 
-        
-        <div className={classes.footer_container}>
+          </div>
+
+          <div className={classes.footer_container}>
           <div className={classes.footer_sub_container}>
             <img
               src="/assets/mtn.png"
@@ -76,8 +77,6 @@ and agree to be bound by the <strong>Bigcash </strong> service’s <br />
             </p>
           </div>
         </div>
-
-          </div>
         </SubLayout>
     </Layout>
   )
