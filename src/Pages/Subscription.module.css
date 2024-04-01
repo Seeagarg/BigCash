@@ -114,7 +114,7 @@
      background: transparent;
      height: 3rem;
      color: black;
-     font-size: 0.95rem;
+     font-size: 1rem;
      font-family: 'Inter',sans-serif;
      /* font-weight:500; */
  }
@@ -124,7 +124,7 @@
  }
  
  .input_group{
-     width: 80%;
+     width: 82%;
      background-color: #eff2f5;
      display: flex;
      justify-content: flex-start;
@@ -136,12 +136,13 @@
  
  .country_code{
      color: grey;
-     font-size: 0.95rem;
+     font-size: 1rem;
      font-weight: 800;
  }
  
  .selector{
      /* width: 25rem; */
+     /* height: 3rem; */
      height: fit-content;
      gap: 0.5rem;
      width: 90%;

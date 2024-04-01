@@ -72,6 +72,7 @@ const Subscription = () => {
                     ...baseStyles,
                     backgroundColor: "black",
                     color: "white",
+                    height:"3rem",
                     fontSize: "1.5rem",
                     fontFamily: "Inter,sans-serif",
                   }),
