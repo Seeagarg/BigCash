@@ -9,18 +9,6 @@
     align-items: center;
     flex-direction: column;
 }
-.top{
-    width: 60%;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    background-color: white;
-    top: 0;
-    position: absolute;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
 
 
 .logo{

@@ -23,6 +23,7 @@
  .bg .image{
      width: 100%;
      opacity: 0.6;
+     min-height: 100dvh;
      height: auto;
      object-fit: contain;
  }

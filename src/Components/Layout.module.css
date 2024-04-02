@@ -16,7 +16,7 @@
     width: 27rem;
     /* min-height: 100dvh; */
     background: linear-gradient(180deg, #FFCB05 0%, #FFFFFF 100%);
-    border-radius: 1.5rem;
+    /* border-radius: 1.5rem; */
     overflow: hidden;
     padding: 2rem 1rem 2rem 1rem;
 }
